@@ -1,0 +1,58 @@
+2025-01-02 13:01:28.826 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2025-01-02 13:01:28.826 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2025-01-02 13:01:28.826 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2025-01-02 13:01:28.836 [info] Native locator: Refresh started
+2025-01-02 13:01:28.904 [info] Native locator: Refresh started
+2025-01-02 13:01:29.139 [info] > pyenv which python
+2025-01-02 13:01:29.139 [info] cwd: .
+2025-01-02 13:01:29.206 [info] Native locator: Refresh finished in 370 ms
+2025-01-02 13:01:29.222 [info] > python -c "import sys;print(sys.executable)"
+2025-01-02 13:01:29.224 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2025-01-02 13:01:29.229 [info] > pyenv which python
+2025-01-02 13:01:29.230 [info] cwd: .
+2025-01-02 13:01:29.587 [info] Shell integration status changed, can confirm it's working.
+2025-01-02 13:01:30.540 [info] Pylance 언어 서버를 시작하는 중입니다.
+2025-01-02 13:03:03.176 [info] Discover tests for workspace name: uys_1705817 - uri: /home/uys_1705817/flaskProject/app.py
+2025-01-02 13:03:53.635 [info] Discover tests for workspace name: uys_1705817 - uri: /home/uys_1705817/flaskProject/app.py
+2025-01-02 13:05:04.425 [info] Native locator: Refresh started
+2025-01-02 13:05:04.594 [info] Native locator: Refresh finished in 169 ms
+2025-01-02 13:05:17.969 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'VirtualEnv',
+  envName: 'usr',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('usr')",
+  detailedDisplayName: "Python 3.12.3 ('usr')",
+  type: 'Virtual'
+} /home/uys_1705817/.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/installed_check.py /home/uys_1705817/flaskProject/requirements.txt
+2025-01-02 13:05:17.969 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/installed_check.py ./flaskProject/requirements.txt
+2025-01-02 13:05:17.969 [info] Discover tests for workspace name: uys_1705817 - uri: /home/uys_1705817
+2025-01-02 13:05:17.969 [info] Python 인터프리터 경로: /bin/python3
+2025-01-02 13:05:21.646 [info] Discover tests for workspace name: uys_1705817 - uri: /home/uys_1705817/flaskProject/app.py

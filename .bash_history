@@ -7,3 +7,13 @@ ll
 exit
 pwd
 ll
+git init
+ls
+pwd
+lla
+ll
+cd .git/
+ls
+cd config/
+vi config
+exit
