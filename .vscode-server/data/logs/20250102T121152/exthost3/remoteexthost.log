@@ -187,3 +187,10 @@
 2025-01-02 13:14:35.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11721
 2025-01-02 13:14:36.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
 2025-01-02 13:14:41.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1726
+2025-01-02 13:15:30.264 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1726
+2025-01-02 13:15:30.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1726
+2025-01-02 13:15:31.504 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-01-02 13:15:32.760 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-01-02 13:15:32.763 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-01-02 13:15:32.814 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-01-02 13:15:33.920 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
