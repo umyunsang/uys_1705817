@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "cmake.configureOnOpen": true,
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "remote.SSH.remotePlatform": {
+        "116.124.191.174": "linux"
+    }
+}

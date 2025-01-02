@@ -1,0 +1,57 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-fab7ff12-e087-4fb8-bcb4-e99505565894
+Extension host agent listening on /tmp/code-fab7ff12-e087-4fb8-bcb4-e99505565894
+
+[12:11:52] 
+
+
+
+
+[12:11:52] Extension host agent started.
+[12:11:52] Started initializing default profile extensions in extensions installation folder. file:///home/uys_1705817/.vscode-server/extensions
+[12:11:52] Completed initializing default profile extensions in extensions installation folder. file:///home/uys_1705817/.vscode-server/extensions
+[12:11:52] [<unknown>][b81129c4][ManagementConnection] New connection established.
+[12:11:52] [<unknown>][c349669e][ExtensionHostConnection] New connection established.
+[12:11:52] [<unknown>][c349669e][ExtensionHostConnection] <3116831> Launched Extension Host Process.
+[12:11:52] Installing extensions...
+[12:11:53] Installing extension 'ms-ceintl.vscode-language-pack-ko'...
+[12:11:53] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+[12:11:53] Installing extension: ms-ceintl.vscode-language-pack-ko {
+  isMachineScoped: true,
+  isBuiltin: false,
+  installPreReleaseVersion: undefined,
+  installGivenVersion: false,
+  isApplicationScoped: true,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  profileLocation: br {
+    scheme: 'file',
+    authority: '',
+    path: '/home/uys_1705817/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/uys_1705817/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/uys_1705817/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.0', date: '2024-12-11T02:29:09.626Z' }
+}
+[12:11:55] Extension signature verification result for ms-ceintl.vscode-language-pack-ko: Success. Executed: true. Duration: 997ms.
+[12:11:55] Extracted extension to file:///home/uys_1705817/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.96.2024121109: ms-ceintl.vscode-language-pack-ko
+[12:11:55] Renamed to /home/uys_1705817/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.96.2024121109
+[12:11:55] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+[12:11:55] Extension installed successfully: ms-ceintl.vscode-language-pack-ko file:///home/uys_1705817/.vscode-server/extensions/extensions.json
+[12:11:55] Extension 'ms-ceintl.vscode-language-pack-ko' v1.96.2024121109 was successfully installed.
+[12:15:50] [<unknown>][b81129c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:15:50] [<unknown>][c349669e][ExtensionHostConnection] <3116831> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[12:15:50] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[12:15:50] Last EH closed, waiting before shutting down
+[12:16:52] [<unknown>][c9021e07][ManagementConnection] New connection established.
+[12:16:52] [<unknown>][36dff366][ExtensionHostConnection] New connection established.
+[12:16:52] [<unknown>][36dff366][ExtensionHostConnection] <3119765> Launched Extension Host Process.
