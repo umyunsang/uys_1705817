@@ -17,3 +17,19 @@
 2025-01-04 09:24:34.657 [info] [Info  - 오전 9:24:34] (3511723) scanned(2) 95 files over 1 exec env
 2025-01-04 09:24:34.803 [info] [Info  - 오전 9:24:34] (3511723) indexed(2) 95 files over 1 exec env
 2025-01-04 09:24:34.826 [info] [Info  - 오전 9:24:34] (3511723) Indexing finished(2).
+2025-01-04 09:24:44.168 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-04 09:24:44.168 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) No include entries specified; assuming /home/uys_1705817
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) Auto-excluding **/node_modules
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) Auto-excluding **/__pycache__
+2025-01-04 09:25:40.422 [info] [Info  - 오전 9:25:40] (3511723) Auto-excluding **/.*
+2025-01-04 09:25:40.444 [info] [Info  - 오전 9:25:40] (3511723) Assuming Python version 3.12.3.final.0
+2025-01-04 09:25:40.474 [info] [Info  - 오전 9:25:40] (3511723) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-04 09:25:40.478 [info] [Info  - 오전 9:25:40] (3511723) Found 2 source files
+2025-01-04 09:25:40.734 [info] [Info  - 오전 9:25:40] (3511723) Indexer background runner(3) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-04 09:25:40.734 [info] [Info  - 오전 9:25:40] (3511723) Indexing(3) started
+2025-01-04 09:25:40.898 [info] [Info  - 오전 9:25:40] (3511723) scanned(3) 95 files over 1 exec env
+2025-01-04 09:25:41.070 [info] [Info  - 오전 9:25:41] (3511723) indexed(3) 95 files over 1 exec env
+2025-01-04 09:25:41.080 [info] [Info  - 오전 9:25:41] (3511723) Indexing finished(3).
