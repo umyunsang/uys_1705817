@@ -1,0 +1,55 @@
+2025-01-04 09:24:33.249 [info] [main] 로그 수준: Info
+2025-01-04 09:24:33.249 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2025-01-04 09:24:33.249 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2025-01-04 09:24:33.249 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-04 09:24:33.249 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-04 09:24:33.249 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-04 09:24:33.249 [info] [Model][openRepository] Opened repository: /home/uys_1705817
+2025-01-04 09:24:33.249 [info] > git rev-parse --show-toplevel [55ms]
+2025-01-04 09:24:33.249 [info] > git config --get commit.template [59ms]
+2025-01-04 09:24:33.249 [info] > git fetch [66ms]
+2025-01-04 09:24:33.249 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-04 09:24:33.249 [info] > git config --get commit.template [19ms]
+2025-01-04 09:24:33.249 [info] > git rev-parse --show-toplevel [24ms]
+2025-01-04 09:24:33.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-04 09:24:33.249 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-04 09:24:33.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-04 09:24:33.249 [info] > git rev-parse --show-toplevel [21ms]
+2025-01-04 09:24:33.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-01-04 09:24:33.249 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-04 09:24:33.249 [info] > git config --get commit.template [15ms]
+2025-01-04 09:24:33.249 [info] > git config --local branch.main.vscode-merge-base [21ms]
+2025-01-04 09:24:33.249 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-04 09:24:33.253 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-04 09:24:33.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-01-04 09:24:33.264 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-04 09:24:33.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-01-04 09:24:33.277 [info] > git reflog main --grep-reflog=branch: Created from *. [29ms]
+2025-01-04 09:24:33.287 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-04 09:24:33.288 [info] > git config --local branch.main.vscode-merge-base [25ms]
+2025-01-04 09:24:33.288 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-04 09:24:33.298 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-04 09:24:33.298 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2025-01-04 09:24:33.298 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-04 09:24:33.298 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-04 09:24:33.304 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2025-01-04 09:24:33.310 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-04 09:24:33.312 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-04 09:24:33.313 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-01-04 09:24:33.313 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-04 09:24:33.313 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-04 09:24:33.319 [info] > git status -z -uall [48ms]
+2025-01-04 09:24:33.701 [info] > git check-ignore -v -z --stdin [13ms]
+2025-01-04 09:24:33.792 [info] > git show --textconv :flaskProject/app.py [8ms]
+2025-01-04 09:24:33.795 [info] > git ls-files --stage -- /home/uys_1705817/flaskProject/app.py [5ms]
+2025-01-04 09:24:33.802 [info] > git cat-file -s 41f1855f19cf8ecd098fb75630e665ee48d75c31 [1ms]
+2025-01-04 09:24:33.900 [info] > git blame --root --incremental 6a592f3ac36fe9e750384f9d55936adf18a4b294 -- /home/uys_1705817/flaskProject/app.py [13ms]
+2025-01-04 09:24:34.460 [info] > git ls-files --stage -- /home/uys_1705817/flaskProject/app.py [3ms]
+2025-01-04 09:24:34.467 [info] > git cat-file -s 41f1855f19cf8ecd098fb75630e665ee48d75c31 [1ms]
+2025-01-04 09:24:34.545 [info] > git show --textconv :flaskProject/app.py [5ms]
+2025-01-04 09:24:37.196 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-04 09:24:37.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-04 09:24:37.199 [info] > git config --get commit.template [10ms]
+2025-01-04 09:24:37.211 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-04 09:24:37.250 [info] > git status -z -uall [46ms]
+2025-01-04 09:24:37.744 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1737ms]

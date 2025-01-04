@@ -1,0 +1,39 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-5133867f-e3d2-43dc-aeff-6d9be7c045dd
+Extension host agent listening on /tmp/code-5133867f-e3d2-43dc-aeff-6d9be7c045dd
+
+[09:24:20] 
+
+
+
+
+[09:24:20] Extension host agent started.
+[09:24:20] [<unknown>][c2124640][ExtensionHostConnection] New connection established.
+[09:24:20] [<unknown>][f74df4c3][ManagementConnection] New connection established.
+Generating translation files failed. Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/nls.keys.json'
+    at async open (node:internal/fs/promises:639:25)
+    at async Object.readFile (node:internal/fs/promises:1242:14)
+    at async Uv (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:3:16834)
+    at async F8 (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:74:38606)
+    at async Zh.start (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:74:41772) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/nls.keys.json'
+}
+[09:24:20] [<unknown>][c2124640][ExtensionHostConnection] <3511341> Launched Extension Host Process.
+[09:24:25] [<unknown>][f74df4c3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:24:26] [<unknown>][c2124640][ExtensionHostConnection] <3511341> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[09:24:26] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[09:24:26] Last EH closed, waiting before shutting down
+[09:24:31] [<unknown>][9ee6a08d][ExtensionHostConnection] New connection established.
+[09:24:31] [<unknown>][b51bba08][ManagementConnection] New connection established.
+[09:24:31] [<unknown>][9ee6a08d][ExtensionHostConnection] <3511529> Launched Extension Host Process.
