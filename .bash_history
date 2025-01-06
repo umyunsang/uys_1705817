@@ -42,3 +42,94 @@ python3 app.py
 source flaskProject/venv/bin/activate
 cd flaskProject/
 python3 app.py 
+pwd
+ll
+cd flaskProject/
+ll
+cd venv/
+ll
+cd ../..
+pwd
+source flaskProject/venv/bin/activate
+python3 app.py
+cd flaskProject/
+python3 app.py
+exit
+ll
+source flaskProject/venv/bin/activate
+cd flaskProject/
+ll
+vi app.py 
+vi requirements.txt 
+cd templates/
+ll
+vi register.html 
+cd ~
+pwd
+cd flaskProject/
+vi users.json 
+pwd
+cd ~
+pwd
+ll
+vi .git
+cd .git
+ll
+vi config
+vi COMMIT_EDITMSG 
+vi HEAD 
+cd logs/
+ll
+vi HEAD 
+cd ../
+cd refs
+ll
+cd remotes/
+ll
+cd origin/
+ll
+vi main
+cd ~
+exit
+java --version
+javac --version
+exit
+pwd
+cd ~
+pwd
+ls
+ll
+lla
+ls la
+ls -a
+la
+ll
+mkdir dir
+rmdir dir
+touch jk
+rm jk
+file reg.py 
+find .py
+find reg.py
+find style.css
+find flaskProject/
+clear
+pwe
+pwd
+echo helloworld
+echo helloworld >> jk
+rm jk
+pwd
+find .
+clear
+ping
+ping 0.0.0.0
+ipconfig
+netstart
+route
+date
+ps
+cd ~
+ll
+vi reg.py 
+exit

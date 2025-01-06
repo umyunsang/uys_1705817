@@ -1,0 +1,21 @@
+2025-01-05 09:23:47.228 [info] [Info  - 오전 9:23:47] (3546467) Server root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 09:23:47.230 [info] [Info  - 오전 9:23:47] (3546467) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-05 09:23:47.230 [info] [Info  - 오전 9:23:47] (3546467) Starting service instance "uys_1705817"
+2025-01-05 09:23:47.266 [info] [Info  - 오전 9:23:47] (3546467) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-05 09:23:47.267 [info] [Info  - 오전 9:23:47] (3546467) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-05 09:23:47.267 [info] [Info  - 오전 9:23:47] (3546467) No include entries specified; assuming /home/uys_1705817
+2025-01-05 09:23:47.267 [info] [Info  - 오전 9:23:47] (3546467) Auto-excluding **/node_modules
+2025-01-05 09:23:47.267 [info] [Info  - 오전 9:23:47] (3546467) Auto-excluding **/__pycache__
+2025-01-05 09:23:47.267 [info] [Info  - 오전 9:23:47] (3546467) Auto-excluding **/.*
+2025-01-05 09:23:47.291 [info] [Info  - 오전 9:23:47] (3546467) Assuming Python version 3.12.3.final.0
+2025-01-05 09:23:47.342 [info] [Info  - 오전 9:23:47] (3546467) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-05 09:23:47.348 [info] [Info  - 오전 9:23:47] (3546467) Found 2 source files
+2025-01-05 09:23:47.597 [info] [Info  - 오전 9:23:47] (3546467) Background analysis(1) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 09:23:47.598 [info] [Info  - 오전 9:23:47] (3546467) Background analysis(1) started
+2025-01-05 09:23:47.651 [info] [Info  - 오전 9:23:47] (3546467) Indexer background runner(2) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-05 09:23:47.651 [info] [Info  - 오전 9:23:47] (3546467) Indexing(2) started
+2025-01-05 09:23:47.927 [info] [Info  - 오전 9:23:47] (3546467) scanned(2) 95 files over 1 exec env
+2025-01-05 09:23:48.086 [info] [Info  - 오전 9:23:48] (3546467) indexed(2) 95 files over 1 exec env
+2025-01-05 09:23:48.116 [info] [Info  - 오전 9:23:48] (3546467) Indexing finished(2).
+2025-01-05 09:23:57.571 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-05 09:23:57.572 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
