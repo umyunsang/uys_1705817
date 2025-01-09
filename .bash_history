@@ -133,3 +133,9 @@ cd ~
 ll
 vi reg.py 
 exit
+pwd
+ls -l
+ls -a
+ls -l -a
+pwd
+mysql -u uys_1705817 -p

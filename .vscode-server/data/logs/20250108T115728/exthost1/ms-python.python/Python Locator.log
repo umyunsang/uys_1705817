@@ -1,0 +1,28 @@
+2025-01-08 11:57:30.667 [info] Starting Python Locator /home/uys_1705817/.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python-env-tools/bin/pet server
+2025-01-08 11:57:30.728 [info] Discovered env: /bin/python3
+2025-01-08 11:57:30.754 [info] Discovered env: /usr/bin/python3
+2025-01-08 11:57:30.854 [info] Discovered env: /bin/python3.12
+2025-01-08 11:57:30.861 [info] Discovered env: /usr/bin/python3.12
+2025-01-08 11:57:30.874 [info] Locator Conda took 69.462519ms
+2025-01-08 11:57:30.880 [info] Locator Homebrew took 1.422629ms
+2025-01-08 11:57:30.881 [info] Locator LinuxGlobal took 74.875774ms
+2025-01-08 11:57:30.891 [info] Locator PipEnv took 324.291µs
+2025-01-08 11:57:30.892 [info] Locator Poetry took 2.345197ms
+2025-01-08 11:57:30.893 [info] Locator PyEnv took 1.21409ms
+2025-01-08 11:57:30.893 [info] Locator Venv took 470.364µs
+2025-01-08 11:57:30.893 [info] Locator VirtualEnv took 508.839µs
+2025-01-08 11:57:30.893 [info] Locator VirtualEnvWrapper took 258.09µs
+2025-01-08 11:57:30.893 [info] Locator GlobalVirtualEnvs took 950.304µs
+2025-01-08 11:57:30.893 [info] Locator Locators took 76.469628ms
+2025-01-08 11:57:30.893 [info] Locator Path took 79.036116ms
+2025-01-08 11:57:30.893 [info] Locator Workspaces took 8.823389ms
+2025-01-08 11:57:30.893 [info] Refresh completed in 79ms
+2025-01-08 11:57:30.894 [info] Resolved Python Environment /bin/python3
+2025-01-08 11:57:30.901 [info] Resolved /bin/python3
+2025-01-08 11:57:30.901 [info] Resolved /usr/bin/python3
+2025-01-08 11:57:30.902 [info] Resolved /bin/python3.12
+2025-01-08 11:57:30.902 [info] Resolved /usr/bin/python3.12
+2025-01-08 11:57:46.365 [warning] Could not find Python executable in "/home/uys_1705817/.vscode-server/extensions/.7fc89d52-0533-44fc-92d1-77f17c627c41/python_files/lib/jedilsp/parso/python"
+2025-01-08 11:57:46.366 [error] Failed to execute Python to resolve info "/home/uys_1705817/.vscode-server/extensions/.7fc89d52-0533-44fc-92d1-77f17c627c41/python_files/lib/jedilsp/parso/python": Permission denied (os error 13)
+2025-01-08 11:57:46.366 [warning] Unknown Python Env "/home/uys_1705817/.vscode-server/extensions/.7fc89d52-0533-44fc-92d1-77f17c627c41/python_files/lib/jedilsp/parso/python"
+2025-01-08 11:57:46.366 [error] Failed to resolve env "/home/uys_1705817/.vscode-server/extensions/.7fc89d52-0533-44fc-92d1-77f17c627c41/python_files/lib/jedilsp/parso/python"
