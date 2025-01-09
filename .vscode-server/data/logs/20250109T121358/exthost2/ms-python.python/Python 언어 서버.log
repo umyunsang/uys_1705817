@@ -35,3 +35,6 @@
 2025-01-09 12:27:14.972 [info] [Info  - 오후 12:27:14] (9816) Indexing finished(3).
 2025-01-09 12:28:01.374 [info] [Info  - 오후 12:28:01] (9816) Auto-excluding /home/uys_1705817/flaskProject/venv
 2025-01-09 12:28:01.379 [info] [Info  - 오후 12:28:01] (9816) Found 3 source files
+2025-01-09 13:38:43.792 [info] [Info  - 오후 1:38:43] (9816) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-09 13:38:43.796 [info] [Info  - 오후 1:38:43] (9816) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-09 13:38:43.798 [info] [Info  - 오후 1:38:43] (9816) Found 3 source files
