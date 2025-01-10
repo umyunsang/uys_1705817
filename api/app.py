@@ -7,9 +7,9 @@ app = Flask(__name__)
 # MySQL 데이터베이스 연결 설정
 db_config = {
     'host': 'localhost',
-    'user': 'your_acc',
-    'password': 'your_acc',
-    'database': 'your_acc'
+    'user': 'uys_1705817',
+    'password': 'uys_1705817',
+    'database': 'uys_1705817'
 }
 
 # MySQL 연결 함수
