@@ -161,3 +161,10 @@ source venv/bin/activate
 nohup python3 app.py > mylog.log 2>&1 &
 pwd
 exit
+pwd
+cd api
+python3 -m venv venv
+source venv/bin/activate
+pip install flask
+pip install mysql-connector-python
+exit

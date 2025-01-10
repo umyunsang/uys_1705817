@@ -22,3 +22,15 @@
 2025-01-10 12:15:43.883 [error] Error: Unexpected SIGPIPE
     at process.<anonymous> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:184:1060)
     at process.emit (node:events:530:35)
+2025-01-10 13:31:19.394 [info] [<unknown>][4640ffde][ExtensionHostConnection] New connection established.
+2025-01-10 13:31:19.400 [info] [<unknown>][4640ffde][ExtensionHostConnection] <166060> Launched Extension Host Process.
+2025-01-10 13:31:19.430 [info] [<unknown>][7450cedc][ManagementConnection] New connection established.
+2025-01-10 13:31:19.434 [info] [<unknown>][4640ffde][ExtensionHostConnection] <166060><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json'
+
+2025-01-10 13:31:25.185 [info] [<unknown>][7450cedc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-10 13:31:25.206 [info] [<unknown>][4640ffde][ExtensionHostConnection] <166060> Extension Host Process exited with code: 0, signal: null.
+2025-01-10 13:31:30.641 [info] [<unknown>][26354884][ManagementConnection] New connection established.
+2025-01-10 13:31:30.652 [info] [<unknown>][cd9bbc6b][ExtensionHostConnection] New connection established.
+2025-01-10 13:31:30.658 [info] [<unknown>][cd9bbc6b][ExtensionHostConnection] <166351> Launched Extension Host Process.
+2025-01-10 13:31:30.690 [info] [<unknown>][cd9bbc6b][ExtensionHostConnection] <166351><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json'
+
