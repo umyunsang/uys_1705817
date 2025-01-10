@@ -1,0 +1,10 @@
+2025-01-10 12:10:51.380 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2025-01-10 12:10:51.380 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2025-01-10 12:10:51.380 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2025-01-10 12:10:51.380 [info] Native locator: Refresh started
+2025-01-10 12:10:51.380 [info] Native locator: Refresh started
+2025-01-10 12:10:51.380 [info] > pyenv which python
+2025-01-10 12:10:51.380 [info] cwd: .
+2025-01-10 12:10:51.431 [info] Python 인터프리터 경로: /bin/python3
+2025-01-10 12:10:51.468 [info] Native locator: Refresh finished in 616 ms
+2025-01-10 12:11:02.269 [info] Pylance 언어 서버를 시작하는 중입니다.

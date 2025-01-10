@@ -139,3 +139,25 @@ ls -a
 ls -l -a
 pwd
 mysql -u uys_1705817 -p
+mysql -u uys_1705817 -p
+mkdir sqlProject
+cd sqlProject/
+python3 -m venv venv
+source venv/bin/activate
+pip install mysql-connector-python
+python3 main.py 
+pip install mysql-connector-python
+python3 main.py 
+cd ~
+pwd
+ps
+man ps
+ps aux | grep z
+ps aux | grep uys
+clear
+pwd
+cd flaskProject/
+source venv/bin/activate
+nohup python3 app.py > mylog.log 2>&1 &
+pwd
+exit
