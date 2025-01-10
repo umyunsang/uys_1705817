@@ -35,3 +35,6 @@
 2025-01-10 12:10:57.046 [info] [Info  - 오후 12:10:57] (139845) Indexing finished(3).
 2025-01-10 12:11:02.268 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
 2025-01-10 12:11:02.268 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-10 12:11:42.051 [info] [Info  - 오후 12:11:42] (139845) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-10 12:11:42.053 [info] [Info  - 오후 12:11:42] (139845) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-10 12:11:42.057 [info] [Info  - 오후 12:11:42] (139845) Found 3 source files
