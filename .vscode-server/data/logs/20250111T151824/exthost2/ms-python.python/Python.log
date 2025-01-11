@@ -1,0 +1,12 @@
+2025-01-11 15:18:37.902 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2025-01-11 15:18:37.902 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2025-01-11 15:18:37.902 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2025-01-11 15:18:37.902 [info] Native locator: Refresh started
+2025-01-11 15:18:37.902 [info] Native locator: Refresh started
+2025-01-11 15:18:37.902 [info] > pyenv which python
+2025-01-11 15:18:37.902 [info] cwd: .
+2025-01-11 15:18:37.955 [info] Python 인터프리터 경로: /bin/python3
+2025-01-11 15:18:37.990 [info] Native locator: Refresh finished in 570 ms
+2025-01-11 15:18:49.039 [info] Pylance 언어 서버를 시작하는 중입니다.
+2025-01-11 15:19:44.511 [info] Discover tests for workspace name: uys_1705817 - uri: /home/uys_1705817/flaskProject/app.py
+2025-01-11 15:25:54.222 [info] Discover tests for workspace name: undefined - uri: c:/Users/엄윤상/AppData/Roaming/Code/User/settings.json

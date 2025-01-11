@@ -168,3 +168,47 @@ source venv/bin/activate
 pip install flask
 pip install mysql-connector-python
 exit
+pwd
+cd api
+source venv/bin/activate
+./ app.py 
+python3 app.py 
+cd flaskProject/
+source venv/bin/activate
+pip install mysql-connector-python flask
+mysql -u uys_1705817 -p
+python3 app.py 
+exit
+mysql -u uys_1705817 -p
+cd api/
+source venv/bin/activate
+python3 app.py 
+cd ~
+lsof -i :15022
+kill -9 221041
+kill -9 221040
+lsof -i :15022
+cd api
+python3 app.py 
+pip install mysql-connector-python flask
+nohup python3 app.py > mylog.log 2>&1 &
+exit
+cd api
+./ server.sh 
+source server.sh 
+ll
+chmod 755 server.sh 
+./server.sh 
+bash server.sh 
+./server.sh 
+ll
+vi server.sh 
+./server.sh 
+exit
+pwd
+lsof -i :15022
+kill -9 225658
+kill -9 225660
+lsof i :15022
+lsof -i :15022
+exit
