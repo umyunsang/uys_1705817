@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>수업 업데이트</title>
+    <title>수업 추가</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>수업 정보 업데이트</h1>
+        <h1>새로운 수업 추가</h1>
         <form method="POST">
-            <label for="course_id">수업 ID:</label>
-            <input type="text" id="course_id" name="course_id" required>
-
             <label for="name">수업 이름:</label>
             <input type="text" id="name" name="name" required>
 
@@ -21,10 +18,11 @@
 
             <label for="location">위치:</label>
             <input type="text" id="location" name="location" required>
+
             <label for="time">시간:</label>
             <input type="text" id="time" name="time" required>
 
-            <button type="submit">수업 정보 업데이트</button>
+            <button type="submit">수업 추가</button>
         </form>
 
         {% if message %}
@@ -32,7 +30,7 @@
                 {{ message }}
             </div>
         {% endif %}
-        <p><a href="/">홈으로 돌아가기</a>
+        <a href="/">홈으로 돌아가기</a>
     </div>
 </body>
 </html>

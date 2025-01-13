@@ -44,8 +44,11 @@ def add_course():
         conn.commit()
         conn.close()
         
-        message = "수업 정보가 추가되었습니다."
-        return render_template('add_course.html', message=message)
+        # 수업 추가 성공 시 알림 메시지
+        flash('수업이 추가되었습니다!', 'success')
+
+        # 홈 페이지로 리디렉션
+        return redirect(url_for('home'))
 
     return render_template('add_course.html')
 
