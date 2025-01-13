@@ -1,0 +1,23 @@
+2025-01-13 11:59:47.602 [info] Extension host with pid 287258 started
+2025-01-13 11:59:47.621 [info] Lock '/home/uys_1705817/.vscode-server/data/User/workspaceStorage/6dff1d9e4f3f3db8febece5da615bae2/vscode.lock': Lock acquired.
+2025-01-13 11:59:47.905 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-13 11:59:47.905 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-01-13 11:59:47.905 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-13 11:59:48.102 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-13 11:59:48.102 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-13 11:59:48.348 [info] Eager extensions activated
+2025-01-13 11:59:48.348 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-13 11:59:48.348 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-13 12:01:25.483 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-13 12:01:31.130 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-13 12:01:31.131 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-13 12:01:31.131 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-13 12:02:06.941 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: Source map support is enabled in the Python Extension, this will adversely impact performance of the extension.
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: Disable Source Map Support
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: Enabling source map support in the Python Extension will adversely impact performance of the extension.
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: Enable and reload Window.
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: ▶ Launch TensorBoard Session
+2025-01-13 12:02:07.196 [warning] Using default string since no string found in i18n bundle that has the key: Launch TensorBoard session
+2025-01-13 12:02:07.387 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-01-13 12:02:07.387 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

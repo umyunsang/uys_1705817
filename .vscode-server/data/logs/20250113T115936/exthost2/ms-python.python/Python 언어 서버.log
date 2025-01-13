@@ -1,0 +1,39 @@
+2025-01-13 12:02:08.158 [info] [Info  - 오후 12:02:08] (291561) Server root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 12:02:08.158 [info] [Info  - 오후 12:02:08] (291561) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-13 12:02:08.158 [info] [Info  - 오후 12:02:08] (291561) Starting service instance "uys_1705817"
+2025-01-13 12:02:08.196 [info] [Info  - 오후 12:02:08] (291561) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 12:02:08.196 [info] [Info  - 오후 12:02:08] (291561) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 12:02:08.196 [info] [Info  - 오후 12:02:08] (291561) No include entries specified; assuming /home/uys_1705817
+2025-01-13 12:02:08.197 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding **/node_modules
+2025-01-13 12:02:08.197 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding **/__pycache__
+2025-01-13 12:02:08.197 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding **/.*
+2025-01-13 12:02:08.220 [info] [Info  - 오후 12:02:08] (291561) Assuming Python version 3.12.3.final.0
+2025-01-13 12:02:08.273 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 12:02:08.273 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 12:02:08.278 [info] [Info  - 오후 12:02:08] (291561) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 12:02:08.280 [info] [Info  - 오후 12:02:08] (291561) Found 4 source files
+2025-01-13 12:02:08.518 [info] [Info  - 오후 12:02:08] (291561) Background analysis(1) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 12:02:08.520 [info] [Info  - 오후 12:02:08] (291561) Background analysis(1) started
+2025-01-13 12:02:08.587 [info] [Info  - 오후 12:02:08] (291561) Indexer background runner(2) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 12:02:08.587 [info] [Info  - 오후 12:02:08] (291561) Indexing(2) started
+2025-01-13 12:02:08.855 [info] [Info  - 오후 12:02:08] (291561) scanned(2) 95 files over 1 exec env
+2025-01-13 12:02:09.025 [info] [Info  - 오후 12:02:09] (291561) indexed(2) 95 files over 1 exec env
+2025-01-13 12:02:09.054 [info] [Info  - 오후 12:02:09] (291561) Indexing finished(2).
+2025-01-13 12:02:18.175 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-13 12:02:18.176 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-13 14:04:16.997 [info] [Info  - 오후 2:04:16] (291561) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 14:04:16.997 [info] [Info  - 오후 2:04:16] (291561) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 14:04:16.997 [info] [Info  - 오후 2:04:16] (291561) No include entries specified; assuming /home/uys_1705817
+2025-01-13 14:04:16.998 [info] [Info  - 오후 2:04:16] (291561) Auto-excluding **/node_modules
+2025-01-13 14:04:16.998 [info] [Info  - 오후 2:04:16] (291561) Auto-excluding **/__pycache__
+2025-01-13 14:04:16.998 [info] [Info  - 오후 2:04:16] (291561) Auto-excluding **/.*
+2025-01-13 14:04:17.023 [info] [Info  - 오후 2:04:17] (291561) Assuming Python version 3.12.3.final.0
+2025-01-13 14:04:17.062 [info] [Info  - 오후 2:04:17] (291561) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 14:04:17.062 [info] [Info  - 오후 2:04:17] (291561) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 14:04:17.066 [info] [Info  - 오후 2:04:17] (291561) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 14:04:17.068 [info] [Info  - 오후 2:04:17] (291561) Found 4 source files
+2025-01-13 14:04:17.363 [info] [Info  - 오후 2:04:17] (291561) Indexer background runner(3) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 14:04:17.363 [info] [Info  - 오후 2:04:17] (291561) Indexing(3) started
+2025-01-13 14:04:17.563 [info] [Info  - 오후 2:04:17] (291561) scanned(3) 95 files over 1 exec env
+2025-01-13 14:04:17.737 [info] [Info  - 오후 2:04:17] (291561) indexed(3) 95 files over 1 exec env
+2025-01-13 14:04:17.763 [info] [Info  - 오후 2:04:17] (291561) Indexing finished(3).

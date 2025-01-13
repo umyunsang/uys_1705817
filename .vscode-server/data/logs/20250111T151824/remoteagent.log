@@ -18,3 +18,7 @@
 2025-01-11 15:23:30.723 [error] Error: Unexpected SIGPIPE
     at process.<anonymous> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:184:1060)
     at process.emit (node:events:530:35)
+2025-01-11 16:15:50.955 [info] [<unknown>][1004e6e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-11 16:15:51.039 [info] [<unknown>][da6ce487][ExtensionHostConnection] <218577> Extension Host Process exited with code: 0, signal: null.
+2025-01-11 16:15:51.040 [info] Last EH closed, waiting before shutting down
+2025-01-11 16:20:51.041 [info] Last EH closed, shutting down

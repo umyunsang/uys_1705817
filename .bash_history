@@ -212,3 +212,18 @@ kill -9 225660
 lsof i :15022
 lsof -i :15022
 exit
+pwd
+./server.sh
+server.sh
+cd api/
+./server.sh 
+cd ~
+pwd
+ll
+docker build -t flask-uys_1705817 .
+cd flaskProject/
+source venv/bin/activate
+docker build -t flask-uys_1705817 .
+docker run -p 15022:15022 flask-uys_1705817
+docker build -t flask-uys_1705817 .
+docker run -p 15022:15022 flask-uys_1705817
