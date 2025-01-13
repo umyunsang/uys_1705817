@@ -227,3 +227,39 @@ docker build -t flask-uys_1705817 .
 docker run -p 15022:15022 flask-uys_1705817
 docker build -t flask-uys_1705817 .
 docker run -p 15022:15022 flask-uys_1705817
+cd flaskProject/
+source venv/bin/activate
+docker compose down 
+docker ps
+docker compose
+cd ~
+docker version
+clear
+ping -c 2 8.8.8.8
+cd flaskProject/
+source venv/bin/activate
+cd ~
+apt-get update
+pwd
+ll
+pwd
+docker version
+cd api/
+python3 app.py 
+cd ~
+lsof -i: 15022
+lsof -i:15022
+lsof -i: 15022
+lsof -i
+sudo lsof -i:15022
+docker info
+docker image ls
+docker image pull httpd
+docker image ls
+docker pull nginx:1.12
+docker pull bitnami/nginx
+docker ps
+docker run -d --name umyun3 -p 15022:80 nginx:1.12
+exit
+mysql -u uys_1705817 -p
+exit

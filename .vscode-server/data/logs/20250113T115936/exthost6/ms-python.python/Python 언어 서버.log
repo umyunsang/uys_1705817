@@ -1,0 +1,40 @@
+2025-01-13 15:46:41.492 [info] [Info  - 오후 3:46:41] (445594) Server root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 15:46:41.492 [info] [Info  - 오후 3:46:41] (445594) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-13 15:46:41.492 [info] [Info  - 오후 3:46:41] (445594) Starting service instance "uys_1705817"
+2025-01-13 15:46:41.521 [info] [Info  - 오후 3:46:41] (445594) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 15:46:41.522 [info] [Info  - 오후 3:46:41] (445594) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 15:46:41.522 [info] [Info  - 오후 3:46:41] (445594) No include entries specified; assuming /home/uys_1705817
+2025-01-13 15:46:41.522 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding **/node_modules
+2025-01-13 15:46:41.522 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding **/__pycache__
+2025-01-13 15:46:41.522 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding **/.*
+2025-01-13 15:46:41.543 [info] [Info  - 오후 3:46:41] (445594) Assuming Python version 3.12.3.final.0
+2025-01-13 15:46:41.587 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 15:46:41.588 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 15:46:41.593 [info] [Info  - 오후 3:46:41] (445594) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 15:46:41.594 [info] [Info  - 오후 3:46:41] (445594) Found 5 source files
+2025-01-13 15:46:41.819 [info] [Info  - 오후 3:46:41] (445594) Background analysis(1) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 15:46:41.820 [info] [Info  - 오후 3:46:41] (445594) Background analysis(1) started
+2025-01-13 15:46:41.871 [info] [Info  - 오후 3:46:41] (445594) Indexer background runner(2) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 15:46:41.871 [info] [Info  - 오후 3:46:41] (445594) Indexing(2) started
+2025-01-13 15:46:42.111 [info] [Info  - 오후 3:46:42] (445594) scanned(2) 95 files over 1 exec env
+2025-01-13 15:46:42.264 [info] [Info  - 오후 3:46:42] (445594) indexed(2) 95 files over 1 exec env
+2025-01-13 15:46:42.294 [info] [Info  - 오후 3:46:42] (445594) Indexing finished(2).
+2025-01-13 15:46:51.645 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-13 15:46:51.645 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) No include entries specified; assuming /home/uys_1705817
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding **/node_modules
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding **/__pycache__
+2025-01-13 17:17:26.270 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding **/.*
+2025-01-13 17:17:26.296 [info] [Info  - 오후 5:17:26] (445594) Assuming Python version 3.12.3.final.0
+2025-01-13 17:17:26.337 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 17:17:26.337 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 17:17:26.341 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 17:17:26.342 [info] [Info  - 오후 5:17:26] (445594) Auto-excluding /home/uys_1705817/webProj/venv
+2025-01-13 17:17:26.344 [info] [Info  - 오후 5:17:26] (445594) Found 5 source files
+2025-01-13 17:17:26.644 [info] [Info  - 오후 5:17:26] (445594) Indexer background runner(3) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 17:17:26.644 [info] [Info  - 오후 5:17:26] (445594) Indexing(3) started
+2025-01-13 17:17:26.870 [info] [Info  - 오후 5:17:26] (445594) scanned(3) 95 files over 1 exec env
+2025-01-13 17:17:27.012 [info] [Info  - 오후 5:17:27] (445594) indexed(3) 95 files over 1 exec env
+2025-01-13 17:17:27.021 [info] [Info  - 오후 5:17:27] (445594) Indexing finished(3).

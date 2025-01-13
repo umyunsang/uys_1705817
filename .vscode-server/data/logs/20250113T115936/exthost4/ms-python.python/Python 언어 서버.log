@@ -1,0 +1,43 @@
+2025-01-13 14:13:06.495 [info] [Info  - 오후 2:13:06] (405730) Server root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 14:13:06.496 [info] [Info  - 오후 2:13:06] (405730) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-13 14:13:06.496 [info] [Info  - 오후 2:13:06] (405730) Starting service instance "uys_1705817"
+2025-01-13 14:13:06.544 [info] [Info  - 오후 2:13:06] (405730) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 14:13:06.544 [info] [Info  - 오후 2:13:06] (405730) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 14:13:06.545 [info] [Info  - 오후 2:13:06] (405730) No include entries specified; assuming /home/uys_1705817
+2025-01-13 14:13:06.552 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding **/node_modules
+2025-01-13 14:13:06.552 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding **/__pycache__
+2025-01-13 14:13:06.552 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding **/.*
+2025-01-13 14:13:06.570 [info] [Info  - 오후 2:13:06] (405730) Assuming Python version 3.12.3.final.0
+2025-01-13 14:13:06.620 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 14:13:06.620 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 14:13:06.625 [info] [Info  - 오후 2:13:06] (405730) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 14:13:06.628 [info] [Info  - 오후 2:13:06] (405730) Found 4 source files
+2025-01-13 14:13:06.889 [info] [Info  - 오후 2:13:06] (405730) Background analysis(1) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-13 14:13:06.890 [info] [Info  - 오후 2:13:06] (405730) Background analysis(1) started
+2025-01-13 14:13:06.951 [info] [Info  - 오후 2:13:06] (405730) Indexer background runner(2) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 14:13:06.951 [info] [Info  - 오후 2:13:06] (405730) Indexing(2) started
+2025-01-13 14:13:07.218 [info] [Info  - 오후 2:13:07] (405730) scanned(2) 95 files over 1 exec env
+2025-01-13 14:13:07.387 [info] [Info  - 오후 2:13:07] (405730) indexed(2) 95 files over 1 exec env
+2025-01-13 14:13:07.410 [info] [Info  - 오후 2:13:07] (405730) Indexing finished(2).
+2025-01-13 14:13:17.009 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-13 14:13:17.009 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) Setting environmentName for service "uys_1705817": "3.12.3 (usr venv)"
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) Setting pythonPath for service "uys_1705817": "/bin/python3"
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) No include entries specified; assuming /home/uys_1705817
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding **/node_modules
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding **/__pycache__
+2025-01-13 15:24:05.285 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding **/.*
+2025-01-13 15:24:05.309 [info] [Info  - 오후 3:24:05] (405730) Assuming Python version 3.12.3.final.0
+2025-01-13 15:24:05.347 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 15:24:05.348 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 15:24:05.351 [info] [Info  - 오후 3:24:05] (405730) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 15:24:05.352 [info] [Info  - 오후 3:24:05] (405730) Found 4 source files
+2025-01-13 15:24:05.647 [info] [Info  - 오후 3:24:05] (405730) Indexer background runner(3) root directory: file:///home/uys_1705817/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-13 15:24:05.647 [info] [Info  - 오후 3:24:05] (405730) Indexing(3) started
+2025-01-13 15:24:05.851 [info] [Info  - 오후 3:24:05] (405730) scanned(3) 95 files over 1 exec env
+2025-01-13 15:24:06.067 [info] [Info  - 오후 3:24:06] (405730) indexed(3) 95 files over 1 exec env
+2025-01-13 15:24:06.090 [info] [Info  - 오후 3:24:06] (405730) Indexing finished(3).
+2025-01-13 15:44:50.115 [info] [Info  - 오후 3:44:50] (405730) Auto-excluding /home/uys_1705817/api/venv
+2025-01-13 15:44:50.115 [info] [Info  - 오후 3:44:50] (405730) Auto-excluding /home/uys_1705817/flaskProject/venv
+2025-01-13 15:44:50.124 [info] [Info  - 오후 3:44:50] (405730) Auto-excluding /home/uys_1705817/sqlProject/venv
+2025-01-13 15:44:50.126 [info] [Info  - 오후 3:44:50] (405730) Found 5 source files

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수업 목록</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>수업 목록</h1>
+        <ul>
+            {% for course in courses %}
+                <li>
+                    <strong>ID: {{ course['id'] }}</strong><br>
+                    강의: {{ course['name'] }}<br>
+                    강사: {{ course['instructor'] }}<br>
+                    위치: {{ course['location'] }}<br>
+                    시간: {{ course['time'] }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="/">홈으로 돌아가기</a>
+    </div>
+</body>
+</html>

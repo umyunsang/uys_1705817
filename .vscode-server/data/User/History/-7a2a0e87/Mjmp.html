@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수업 추가</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        // JavaScript 함수로 수업 선택에 따른 정보를 업데이트
+        function updateCourseDetails() {
+            var courseId = document.getElementById("course").value;
+            
+            if (courseId !== "") {
+                fetch(`/get_course_details/${courseId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("instructor").value = data.instructor;
+                        document.getElementById("location").value = data.location;
+                        document.getElementById("time").value = data.time;
+                    });
+            } else {
+                // 수업을 선택하지 않으면 입력 필드를 비웁니다.
+                document.getElementById("instructor").value = "";
+                document.getElementById("location").value = "";
+                document.getElementById("time").value = "";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>새로운 수업 추가</h1>
+        <form method="POST">
+            <label for="course">수업 선택:</label>
+            <select id="course" name="course" onchange="updateCourseDetails()" required>
+                <option value="">수업을 선택하세요</option>
+                {% for course in courses %}
+                    <option value="{{ course.id }}">{{ course.name }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="instructor">강사:</label>
+            <input type="text" id="instructor" name="instructor" readonly required>
+
+            <label for="location">위치:</label>
+            <input type="text" id="location" name="location" readonly required>
+
+            <label for="time">시간:</label>
+            <input type="text" id="time" name="time" readonly required>
+
+            <button type="submit">수업 추가</button>
+        </form>
+
+        {% if message %}
+            <div class="message">
+                {{ message }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

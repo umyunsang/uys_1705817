@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 서비스</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD 웹 서비스</h1>
+        <p>이름: 엄윤상</p>
+        <p>학과: AI</p>
+        <p>학번: 1705817</p>
+        <h2>사용 가능한 기능:</h2>
+        <ul>
+            <li><a href="/courses/add">C<sub>(create)</sub> : 수업 추가</a></li>
+            <li><a href="/courses">R<sub>(read)</sub> : 수업 목록 보기</a></li>
+            <li><a href="/courses/update">U<sub>(update)</sub> : 수업 업데이트</a></li>
+            <li><a href="/courses/delete">D<sub>(delete)</sub> : 수업 삭제</a></li>
+        </ul>
+    </div>
+</body>
+</html>

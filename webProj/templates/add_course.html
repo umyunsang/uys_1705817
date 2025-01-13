@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수업 추가</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>새로운 수업 추가</h1>
+        <form method="POST">
+            <label for="name">수업 이름:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="instructor">강사:</label>
+            <input type="text" id="instructor" name="instructor" required>
+
+            <label for="location">위치:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="time">시간:</label>
+            <input type="text" id="time" name="time" required>
+
+            <button type="submit">수업 추가</button>
+        </form>
+
+        {% if message %}
+            <div class="message">
+                {{ message }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
