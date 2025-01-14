@@ -12,3 +12,20 @@
 2025-01-14 11:44:52.318 [info] [<unknown>][66f4fbe3][ExtensionHostConnection] <568916> Launched Extension Host Process.
 2025-01-14 11:44:52.339 [info] [<unknown>][a6027118][ManagementConnection] New connection established.
 2025-01-14 11:46:04.545 [info] [<unknown>][50d69b25][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-14 13:58:14.423 [info] [<unknown>][a6027118][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-14 13:58:14.426 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-14 14:03:54.427 [info] [<unknown>][50d69b25][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-01-14 14:03:54.428 [info] [<unknown>][a6027118][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-01-14 14:03:54.431 [info] [<unknown>][8431d0b1][ManagementConnection] New connection established.
+2025-01-14 14:03:54.432 [info] [<unknown>][5e1ef275][ExtensionHostConnection] New connection established.
+2025-01-14 14:03:54.440 [info] [<unknown>][5e1ef275][ExtensionHostConnection] <676832> Launched Extension Host Process.
+2025-01-14 14:08:54.597 [info] [<unknown>][50d69b25][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-01-14 14:08:54.602 [info] [<unknown>][a6027118][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-01-14 14:08:54.647 [info] [<unknown>][d696a6c7][ExtensionHostConnection] <538343> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 14:08:54.807 [info] [<unknown>][66f4fbe3][ExtensionHostConnection] <568916> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 15:35:06.410 [info] [<unknown>][8431d0b1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 15:35:06.483 [info] [<unknown>][5e1ef275][ExtensionHostConnection] <676832> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 15:35:06.483 [info] Last EH closed, waiting before shutting down
+2025-01-14 15:40:06.485 [info] Last EH closed, shutting down

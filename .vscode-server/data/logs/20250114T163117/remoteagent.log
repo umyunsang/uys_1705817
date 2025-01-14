@@ -1,0 +1,56 @@
+2025-01-14 16:31:17.412 [info] 
+
+
+
+
+2025-01-14 16:31:17.419 [info] Extension host agent started.
+2025-01-14 16:31:17.590 [info] [<unknown>][d9f4a68e][ExtensionHostConnection] New connection established.
+2025-01-14 16:31:17.591 [info] [<unknown>][d4993b2f][ManagementConnection] New connection established.
+2025-01-14 16:31:17.670 [info] [<unknown>][d9f4a68e][ExtensionHostConnection] <736361> Launched Extension Host Process.
+2025-01-14 16:31:17.727 [info] [<unknown>][d9f4a68e][ExtensionHostConnection] <736361><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-14 16:31:19.547 [error] CodeExpectedError: Could not find pty 2 on pty host
+    at I.W (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-14 16:31:35.578 [info] [<unknown>][d4993b2f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 16:31:35.603 [info] [<unknown>][d9f4a68e][ExtensionHostConnection] <736361> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 16:31:35.603 [info] Cancelling previous shutdown timeout
+2025-01-14 16:31:35.604 [info] Last EH closed, waiting before shutting down
+2025-01-14 16:31:41.579 [info] [<unknown>][07c812e1][ExtensionHostConnection] New connection established.
+2025-01-14 16:31:41.580 [info] [<unknown>][60a15d9c][ManagementConnection] New connection established.
+2025-01-14 16:31:41.586 [info] [<unknown>][07c812e1][ExtensionHostConnection] <736861> Launched Extension Host Process.
+2025-01-14 16:31:41.621 [info] [<unknown>][07c812e1][ExtensionHostConnection] <736861><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/91fbdddc47bc9c09064bf7acf133d22631cbf083/nls.messages.json'
+
+2025-01-14 16:31:43.723 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-14 16:36:35.606 [info] New EH opened, aborting shutdown
+2025-01-14 16:36:35.608 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-14 16:36:44.052 [info] [<unknown>][60a15d9c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 16:36:44.131 [info] [<unknown>][07c812e1][ExtensionHostConnection] <736861> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 16:36:44.132 [info] Last EH closed, waiting before shutting down
+2025-01-14 16:41:44.133 [info] Last EH closed, shutting down

@@ -8,3 +8,25 @@
 2025-01-14 12:09:12.067 [info] Python 인터프리터 경로: /bin/python3
 2025-01-14 12:09:12.070 [info] Native locator: Refresh finished in 498 ms
 2025-01-14 12:09:22.838 [info] Pylance 언어 서버를 시작하는 중입니다.
+2025-01-14 13:13:32.771 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'VirtualEnv',
+  envName: 'usr',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('usr')",
+  detailedDisplayName: "Python 3.12.3 ('usr')",
+  type: 'Virtual'
+} /home/uys_1705817/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/installed_check.py /home/uys_1705817/webProj/requirements.txt
+2025-01-14 13:13:32.771 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/installed_check.py ./webProj/requirements.txt

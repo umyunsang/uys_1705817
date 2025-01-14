@@ -367,3 +367,62 @@ lsof -i:15022
 kill -9 574602
 lsof -i:15022
 exit
+docker pull centos
+docker run -it --name voltest --tmpfs /abc123 centos
+docker ps
+docker ps -a
+docker rm voltest 
+docker volume ls
+docker image rm nginx:1.12
+docker image ls
+ip addr
+apt-get -y install bridge-utils
+sudo apt-get -y install bridge-untls
+brctl show
+docker run -d --name uys -p 15022:80 nginx
+docker ps
+docker inspect uys
+ip addr
+docker ps
+docker rm -f uys
+docker run -d --name uys -e MYSQL_ROOT_PASSWORD=123 mysql
+docker ps
+brctl show
+0.
+docker ps
+docker rm -f uys
+docker network ls
+docker network create uys
+docker network ls
+brctl show
+docker network rm uys
+docker network create --subnet 10.100.1.0/24 uysnet
+docker network ls
+docker network inspect uysnet 
+docker run -d --name uys --network uysnet -p 15022:80 nginx
+docker  run  -d  --name  uysdb  --network  uysnet  -e  MYSQL_ROOT_PASSWORD=123  mysql
+brctl show
+docker inspect uys | grep IPAddr
+docker inspect uysdb | grep IPAddr
+docker stop uys
+docker run -it --name uys1 --network uysnet centos
+docker start uys 
+docker exec -it uys1 bash
+docker ps
+docker rm -f uys1
+docker rm -f uysdb
+docker rm -f uys
+docker network create wordpress_net
+docker volume create dbfile
+docker run -d     --name mysqldb     --network wordpress_net     --volume dbfile:/var/lib/mysql     --env-file 1.txt     mysql
+docker run -d     --name mysqldb     --network wordpress_net     --volume dbfile:/var/lib/mysql     -e MYSQL_ROOT_PASSWORD=rootpass     -e MYSQL_DATABASE=wpdb     -e MYSQL_USER=wordpress     -e MYSQL_PASSWORD=wordpress     mysql
+docker run -d     --name web     --network wordpress_net     -p 8080:80     -e WORDPRESS_DB_HOST=mysqldb     -e WORDPRESS_DB_NAME=wpdb     -e WORDPRESS_DB_USER=wordpress     -e WORDPRESS_DB_PASSWORD=wordpress     wordpress
+docker rm -f web
+docker run -d     --name web     --network wordpress_net     -p 15022:80     -e WORDPRESS_DB_HOST=mysqldb     -e WORDPRESS_DB_NAME=wpdb     -e WORDPRESS_DB_USER=wordpress     -e WORDPRESS_DB_PASSWORD=wordpress     wordpress
+docker network rm wordpress_net 
+docker network ls
+docker stop web mysqldb
+docker rm web mysqldb
+docker network rm wordpress_net 
+docker network rm uysnet 
+docker volume rm dbfile 

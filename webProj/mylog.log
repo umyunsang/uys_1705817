@@ -8,58 +8,11 @@ nohup: 입력 무시
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 234-695-525
-223.39.241.171 - - [14/Jan/2025 11:54:33] "GET / HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 11:54:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-211.32.131.114 - - [14/Jan/2025 12:05:24] "GET / HTTP/1.1" 200 -
-211.32.131.114 - - [14/Jan/2025 12:05:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:41:19] "GET / HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:41:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:47:41] "GET / HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:47:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:47:50] "GET /courses/add HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:47:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:47:52] "GET / HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:47:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:48:00] "GET /courses HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:48:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:48:08] "GET /courses HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:48:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:48:13] "GET /courses/update HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:48:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-223.39.241.171 - - [14/Jan/2025 12:48:17] "GET /courses/delete HTTP/1.1" 200 -
-223.39.241.171 - - [14/Jan/2025 12:48:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-211.32.131.114 - - [14/Jan/2025 12:50:05] "GET / HTTP/1.1" 200 -
-211.32.131.114 - - [14/Jan/2025 12:50:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-61.97.33.34 - - [14/Jan/2025 12:55:09] "GET / HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:09] "GET /static/style.css HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-61.97.33.34 - - [14/Jan/2025 12:55:13] "GET /courses/add HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-61.97.33.34 - - [14/Jan/2025 12:55:22] "GET /courses HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-61.97.33.34 - - [14/Jan/2025 12:55:28] "GET /courses/update HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-61.97.33.34 - - [14/Jan/2025 12:55:31] "GET /courses/delete HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 12:55:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-61.97.33.34 - - [14/Jan/2025 13:04:41] "GET / HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 13:04:41] "GET /static/style.css HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 13:04:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-61.97.33.34 - - [14/Jan/2025 13:04:53] "GET / HTTP/1.1" 200 -
-61.97.33.34 - - [14/Jan/2025 13:04:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-106.101.131.124 - - [14/Jan/2025 13:08:35] "GET / HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:35] "GET /static/style.css HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:36] "GET / HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-106.101.131.124 - - [14/Jan/2025 13:08:39] "GET /courses/add HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-106.101.131.124 - - [14/Jan/2025 13:08:40] "GET /courses/add HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:43] "GET /courses HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-106.101.131.124 - - [14/Jan/2025 13:08:43] "GET /courses HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:45] "GET /courses/update HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-106.101.131.124 - - [14/Jan/2025 13:08:45] "GET /courses/update HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:49] "GET /courses/delete HTTP/1.1" 200 -
-106.101.131.124 - - [14/Jan/2025 13:08:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-106.101.131.124 - - [14/Jan/2025 13:08:49] "GET /courses/delete HTTP/1.1" 200 -
+ * Debugger PIN: 199-665-258
+223.39.241.246 - - [14/Jan/2025 17:01:06] "GET / HTTP/1.1" 200 -
+223.39.241.246 - - [14/Jan/2025 17:01:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+223.39.241.246 - - [14/Jan/2025 17:01:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.39.241.246 - - [14/Jan/2025 17:01:10] "GET / HTTP/1.1" 200 -
+223.39.241.246 - - [14/Jan/2025 17:01:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+223.39.241.246 - - [14/Jan/2025 17:01:11] "GET /courses/add HTTP/1.1" 200 -
+223.39.241.246 - - [14/Jan/2025 17:01:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
