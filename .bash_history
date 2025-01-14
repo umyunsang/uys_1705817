@@ -263,3 +263,30 @@ docker run -d --name umyun3 -p 15022:80 nginx:1.12
 exit
 mysql -u uys_1705817 -p
 exit
+lsof -i:15022
+cd api/
+source venv/bin/activate
+python3 app.py 
+../
+cd ~
+cd flaskProject/
+docker network ls
+docker ps
+docker stop c422
+docker ps
+cd ~
+cd api/
+python3 app.py 
+cd ~
+mkdir webProj
+cd webProj/
+python3 -m venv venv
+deactivate
+source venv/bin/activate
+pip install flask
+pip install mysql-connector-python flask
+pip freeze > requirements.txt
+python3 app.py 
+python3 apa
+python3 app.py 
+(venv) $ nohup python3 app.py > mylog.log 2>&1 &

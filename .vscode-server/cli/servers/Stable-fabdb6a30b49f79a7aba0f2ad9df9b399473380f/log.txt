@@ -5,23 +5,28 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-85a36a04-2eaa-493a-a790-d9e196b0cc5b
-Extension host agent listening on /tmp/code-85a36a04-2eaa-493a-a790-d9e196b0cc5b
+Server bound to /tmp/code-c29b3769-5e7c-49dc-9cfe-27fa8008742f
+Extension host agent listening on /tmp/code-c29b3769-5e7c-49dc-9cfe-27fa8008742f
 
-[11:59:36] 
-
-
+[09:41:59] 
 
 
-[11:59:36] Extension host agent started.
-[11:59:36] [<unknown>][bb2f7004][ExtensionHostConnection] New connection established.
-[11:59:36] [<unknown>][02bd1124][ManagementConnection] New connection established.
-[11:59:36] [<unknown>][bb2f7004][ExtensionHostConnection] <287029> Launched Extension Host Process.
-[11:59:36] [<unknown>][bb2f7004][ExtensionHostConnection] <287029><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json'
 
-[11:59:42] [<unknown>][02bd1124][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[11:59:46] [<unknown>][75ab43a7][ExtensionHostConnection] New connection established.
-[11:59:46] [<unknown>][75ab43a7][ExtensionHostConnection] <287258> Launched Extension Host Process.
-[11:59:46] [<unknown>][db084bba][ManagementConnection] New connection established.
-[11:59:46] [<unknown>][75ab43a7][ExtensionHostConnection] <287258><stderr> Error reading NLS messages file /home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/data/clp/0d8c6eb27ebf0819b0f03bef87650722.ko/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/nls.messages.json'
 
+[09:41:59] Extension host agent started.
+[09:41:59] [<unknown>][d696a6c7][ExtensionHostConnection] New connection established.
+[09:41:59] [<unknown>][50d69b25][ManagementConnection] New connection established.
+Generating translation files failed. Error: ENOENT: no such file or directory, open '/home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/nls.keys.json'
+    at async open (node:internal/fs/promises:639:25)
+    at async Object.readFile (node:internal/fs/promises:1242:14)
+    at async Uv (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:3:16834)
+    at async F8 (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:74:38606)
+    at async Zh.start (file:///home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:74:41772) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/uys_1705817/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/nls.keys.json'
+}
+[09:41:59] [<unknown>][d696a6c7][ExtensionHostConnection] <538343> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[09:46:59] New EH opened, aborting shutdown
