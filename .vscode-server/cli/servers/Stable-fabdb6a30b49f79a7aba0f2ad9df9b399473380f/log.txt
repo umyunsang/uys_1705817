@@ -30,3 +30,7 @@ Generating translation files failed. Error: ENOENT: no such file or directory, o
 [09:41:59] [<unknown>][d696a6c7][ExtensionHostConnection] <538343> Launched Extension Host Process.
 New EH opened, aborting shutdown
 [09:46:59] New EH opened, aborting shutdown
+[11:44:52] [<unknown>][66f4fbe3][ExtensionHostConnection] New connection established.
+[11:44:52] [<unknown>][66f4fbe3][ExtensionHostConnection] <568916> Launched Extension Host Process.
+[11:44:52] [<unknown>][a6027118][ManagementConnection] New connection established.
+[11:46:04] [<unknown>][50d69b25][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

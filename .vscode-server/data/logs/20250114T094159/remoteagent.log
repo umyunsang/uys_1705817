@@ -8,3 +8,7 @@
 2025-01-14 09:41:59.678 [info] [<unknown>][50d69b25][ManagementConnection] New connection established.
 2025-01-14 09:41:59.752 [info] [<unknown>][d696a6c7][ExtensionHostConnection] <538343> Launched Extension Host Process.
 2025-01-14 09:46:59.568 [info] New EH opened, aborting shutdown
+2025-01-14 11:44:52.311 [info] [<unknown>][66f4fbe3][ExtensionHostConnection] New connection established.
+2025-01-14 11:44:52.318 [info] [<unknown>][66f4fbe3][ExtensionHostConnection] <568916> Launched Extension Host Process.
+2025-01-14 11:44:52.339 [info] [<unknown>][a6027118][ManagementConnection] New connection established.
+2025-01-14 11:46:04.545 [info] [<unknown>][50d69b25][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

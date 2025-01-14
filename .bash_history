@@ -290,3 +290,80 @@ python3 app.py
 python3 apa
 python3 app.py 
 (venv) $ nohup python3 app.py > mylog.log 2>&1 &
+docker ps
+lsof -i:15022
+docker images
+docker pull mysql
+docker run -d --name uys mysql
+docker ps 
+docker ps -a
+docker run -d --name mydb -e MYSQL_ROOT_PASSWORD=123 mysql
+docker ps
+mkdir dockerProj
+cd dockerProj/
+vi 1.txt
+docker rm -f f01b
+docker ps
+docker run -d --name uysdb --env-file 1.txt mysql
+docker ps
+hostname
+docker exec uysdb hostname
+docker exec uysdb date
+docker exec -it uysdb bash
+docker run -d --name www -p 8383:80 nginx:1.12
+docker exec -it www bash
+docker ipconfig
+docker ps
+docker rm -f 9713
+vi index.html
+docker rm -f 4e98
+docker ps
+docker ps -a
+docker ps
+lsof -i:15022
+kill -9 485545
+kill -9 485538
+docker images
+docker run -d --name www nginx
+docker ps
+docker rm -f www
+docker ps
+docker run -d -name www -p 15022:80 nginx:1.12
+docker run -d --name www -p 15022:80 nginx:1.12
+docker ps
+mkdir bind_volume
+docker run -d --name uysweb -p 15022:80 -v /bind_volume:/usr/share/nginx/html nginx:1.12
+docker rm -f www
+docker run -d --name uysweb -p 15022:80 -v /bind_volume:/usr/share/nginx/html nginx:1.12
+docker ps
+docker ps -a
+docker rm uysweb
+docker rm uys
+docker rm uysdb
+docker rm umyun3
+docker run -d --name uysweb -p 15022:80 -v /bind_volume:/usr/share/nginx/html nginx:1.12
+docker exec -it uysweb bash
+docker inspect uysweb
+docker inspect uysweb | grep -A 10 Mounts
+docker rm -f uysweb
+docker rm uysweb
+docker run -d --name uysweb -p 15022:80 -v /bind_volume:/usr/share/nginx/html nginx:1.12
+ls /bind_volume
+cd ~
+cd webProj/
+source venv/bin/activate
+python3 app.py 
+lsof -i:15022
+pwd
+clear
+nohup python3 app.py > mylog.log 2>&1 &
+mysql -u uys_1705817 -p
+exit
+docker ps
+docker rm uysweb
+docker rm -f uysweb
+docker ps
+lsof -i:15022
+kill -9 574602
+lsof -i:15022
+exit
